@@ -9,10 +9,6 @@
                 <router-link tag="a" class="router-link" :to="{name: 'videos'}">Videos</router-link>
                 <router-link tag="a" class="router-link" :to="{name: 'about'}">About</router-link>
                 <router-link tag="a" class="router-link" :to="{name: 'contact'}">Contact</router-link>
-                <!-- <a href="#" class="router-link">Home</a>
-                <a href="#" class="router-link">Videos</a>
-                <a href="#" class="router-link">About</a>
-                <a href="#" class="router-link">Contact</a> -->
             </div>
             <div class="navbar_comp__end">
                 Game of thrones
@@ -57,6 +53,12 @@
             cursor: hover;
             color: $navbar-link-hover-color;
         }
+    }
+
+    .router-link-active {
+           text-decoration: underline;
+            cursor: hover;
+            color: $navbar-link-hover-color;
     }
 
     .main-title {
