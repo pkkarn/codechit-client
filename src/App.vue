@@ -3,7 +3,9 @@
     <div>
       <!-- Navbar -->
       <Navbar/>
-      <router-view></router-view>
+      <div class="main__view">
+        <router-view></router-view>
+      </div>
       <!-- MainPage -->
       <!-- <MainPage/> -->
       <!-- Footer -->
@@ -24,5 +26,12 @@ import Navbar from '@/components/Navbar.vue'
   min-height: 100vh;
   font-family: $main-font;
   font-weight: 400;
+}
+.main {
+  &__view {
+    background: $primary-color;
+    min-height: 100vh;
+    padding: $general-padding * 2;
+  }
 }
 </style>
