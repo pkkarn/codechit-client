@@ -3,8 +3,7 @@
     <div>
       <!-- Navbar -->
       <Navbar/>
-
-      Hello
+      <router-view></router-view>
       <!-- MainPage -->
       <!-- <MainPage/> -->
       <!-- Footer -->

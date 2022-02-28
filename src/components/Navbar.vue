@@ -5,10 +5,14 @@
                 <span class="main-title"> CodeChit </span>
             </div>
             <div class="navbar_comp__middle">
-                <a href="#" class="router-link">Home</a>
+                <router-link tag="a" class="router-link" :to="{name: 'home'}">Home</router-link>
+                <router-link tag="a" class="router-link" :to="{name: 'videos'}">Videos</router-link>
+                <router-link tag="a" class="router-link" :to="{name: 'about'}">About</router-link>
+                <router-link tag="a" class="router-link" :to="{name: 'contact'}">Contact</router-link>
+                <!-- <a href="#" class="router-link">Home</a>
                 <a href="#" class="router-link">Videos</a>
                 <a href="#" class="router-link">About</a>
-                <a href="#" class="router-link">Contact</a>
+                <a href="#" class="router-link">Contact</a> -->
             </div>
             <div class="navbar_comp__end">
                 Game of thrones
