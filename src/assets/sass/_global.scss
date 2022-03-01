@@ -1,0 +1,46 @@
+@import './variables';
+
+.cd-white {
+    background-color: #fff;
+}
+
+.cd-blue {
+    background-color: $fifth-color;
+    color: #fff;
+}
+
+.cd-text-blue {
+    color: $fifth-color;
+}
+
+.cd-font {
+    font-family: $navbar-font,
+}
+
+.cd-primary {
+    background-color: $primary-color;
+}
+
+.cd-secondary {
+    background-color: $secondary-color;
+}
+
+.cd-third {
+    background-color: $third-color;
+}
+
+.cd-fourth {
+    background-color: $fourth-color;
+}
+
+.cd-fifth {
+    background-color: $fifth-color;
+}
+
+.section-title {
+    font-size: 1.6rem;
+    background-color: $fifth-color;
+    display: inline-block;
+    padding: 0 1rem;
+    color: #f7f7f7;
+}

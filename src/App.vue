@@ -19,7 +19,8 @@ import Navbar from '@/components/Navbar.vue'
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+@import '@/assets/sass/_global.scss';
 #main {
   background: $main-color;
   color: $main-text-color;
